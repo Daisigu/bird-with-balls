@@ -18,7 +18,7 @@ useSeoMeta({
   ogTitle: 'Spinning Bird with Balls',
   ogDescription: 'Spinning Bird with Balls',
   ogImage: '/main-image.jpg',
-  ogUrl: 'https://example.com',
+  ogUrl: 'https://spinning-bird-with-balls.ru/',
   twitterTitle: 'Spinning Bird with Balls',
   twitterDescription: 'Spinning Bird with Balls',
   twitterImage: '/main-image.jpg',
