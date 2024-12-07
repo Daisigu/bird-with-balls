@@ -1,1 +1,11 @@
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /backend/
 
+Allow: /images/
+Allow: /
+
+# Разрешаем доступ к стилям и скриптам
+Allow: /css/
+Allow: /js/
