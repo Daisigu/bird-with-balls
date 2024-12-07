@@ -7,6 +7,7 @@ const peers = new Set<Peer>()
 export default defineWebSocketHandler({
     open(peer) {
         userCount++
+        console.log('ws connection open', peer.id)
         peers.add(peer)  // Добавляем нового клиента в список
         peer.subscribe(room)
 
@@ -18,7 +19,7 @@ export default defineWebSocketHandler({
     },
     close(peer) {
         userCount--
-
+        console.log('ws connection closed', peer.id)
         peers.forEach((p) => {
             p.publish(room, JSON.stringify({userCount}))
         })
