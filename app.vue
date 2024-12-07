@@ -27,7 +27,7 @@ useSeoMeta({
 
 </script>
 <template>
-  <div class="flex-grow text-white bg-black flex-col flex min-h-screen">
+  <div class="flex-grow text-white bg-black flex-col flex min-h-[100svh]">
     <VHeader/>
     <VBirdModel class="flex-grow"/>
     <VFooter/>
