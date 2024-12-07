@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const {scene} = await useGLTF('/models/bird.gltf', {draco: true})
+const usersWatching = useState<number>('usersWatching')
 </script>
 
 <template>
@@ -13,7 +14,7 @@ const {scene} = await useGLTF('/models/bird.gltf', {draco: true})
           :enable-zoom="true"
           :enable-damping="true"
           :enable-pan="false"
-          :auto-rotate-speed="10"
+          :auto-rotate-speed="usersWatching * 10"
           :min-polar-angle="0"
           :max-polar-angle="3.14"
       />
