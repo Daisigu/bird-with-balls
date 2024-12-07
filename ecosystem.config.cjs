@@ -3,8 +3,8 @@ module.exports = {
     {
       name: "Bird with Balls App",
       port: "3002",
-      exec_mode: "cluster",
-      instances: "max",
+      exec_mode: "fork",
+      instances: 1,
       watch: true,
       autorestart: true,
       env: {
@@ -14,6 +14,5 @@ module.exports = {
       restart_delay: 5000,
       script: "./.output/server/index.mjs",
     },
-
   ],
 };
