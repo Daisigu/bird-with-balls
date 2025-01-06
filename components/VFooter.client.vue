@@ -8,7 +8,7 @@ watch(data, (newValue) => {
     try {
       const parsed = JSON.parse(newValue)
       console.log(parsed)
-      usersWatching.value = parsed.userCount || 1  // Обновляем с правильным значением
+      usersWatching.value = parsed.userCount || 1
     } catch (error) {
       console.error('Failed to parse WebSocket message', error)
     }
