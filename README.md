@@ -1,75 +1,18 @@
-# Nuxt Minimal Starter
+### "Spinning Bird with Balls"
+Это веб-приложение, на котором отображается 3D модель птицы с яйцами, вращающаяся в пространстве. Этот проект создан с использованием **Nuxt 3** и предоставляет визуальное отображение вращающейся модели с возможностью взаимодействовать с ней.
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Технологии
 
-## Setup
+- **Nuxt 3**
+- **Three.js** 
+- **TailwindCSS**
+- **Vue 3**
+- **Websockets**
 
-Make sure to install dependencies:
+## Установка
 
-```bash
-# npm
-npm install
+(Для установки требуется nodejs 18.x или выше)
 
-# pnpm
-pnpm install
+- npm install
+- npm dev
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
