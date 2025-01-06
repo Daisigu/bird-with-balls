@@ -8,7 +8,7 @@ export default defineWebSocketHandler({
     open(peer) {
         userCount++
         console.log('ws connection open at', new Date().toLocaleString(), peer.id)
-        peers.add(peer)  // Добавляем нового клиента в список
+        peers.add(peer)
         peer.subscribe(room)
 
         peers.forEach((p) => {
