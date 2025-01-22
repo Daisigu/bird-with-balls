@@ -1,9 +1,9 @@
 ### Spinning Bird with Balls
 [Link](https://spinning-bird-with-balls.ru/)
 
-Это веб-приложение, на котором отображается 3D модель птицы с яйцами, вращающаяся в пространстве. Этот проект создан с использованием **Nuxt 3** и предоставляет визуальное отображение вращающейся модели с возможностью взаимодействовать с ней.
+This web application displays a 3D model of a bird with balls, rotating in space. The project is built using Nuxt 3 and provides a visual representation of the rotating model with interactive features.
 
-## Технологии
+## Technologies
 
 - **Nuxt 3**
 - **Three.js** 
@@ -11,9 +11,9 @@
 - **Vue 3**
 - **Websockets**
 
-## Установка
+## Installation
 
-(Для установки требуется nodejs 18.x или выше)
+(Node.js 18.x or higher is required)
 
 - npm install
 - npm dev
